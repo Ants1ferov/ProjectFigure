@@ -12,7 +12,7 @@ namespace Figures.Model
         /// </summary>
         /// <param name="radius"> Радиус </param>
         /// <exception cref="ArgumentException"> Аргументы не могут принимать нулевые или отрицательные вхождения </exception>
-        public Circle(int radius)
+        public Circle(double radius)
         {
             if (radius <= 0)
             {
@@ -26,11 +26,11 @@ namespace Figures.Model
         /// <summary>
         /// Площадь круга
         /// </summary>
-        public int Square { get; private set; }
+        public double Square { get; private set; }
         /// <summary>
         /// Радиус круга
         /// </summary>
-        public int Radius { get; private set; }
+        public double Radius { get; private set; }
         #endregion
 
         /// <summary>
@@ -39,7 +39,7 @@ namespace Figures.Model
         /// <returns> Значение площади круга </returns>
         public double FindingSquare()
         {
-            return Math.PI * Math.Pow(Radius, 2);
+            return Square = Math.PI * Math.Pow(Radius, 2);
         }
     }
 }

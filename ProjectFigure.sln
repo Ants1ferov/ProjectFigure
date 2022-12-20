@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figures", "Figures\Figures.csproj", "{95D94B59-71DF-4108-A7C2-6E4A0575B791}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguresLibrary", "Figures\FiguresLibrary.csproj", "{95D94B59-71DF-4108-A7C2-6E4A0575B791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleForms", "ConsoleForms\ConsoleForms.csproj", "{B3B41470-D8AA-4169-9C42-D358331D23E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguresLibraryTests", "FiguresLibraryTests\FiguresLibraryTests.csproj", "{818B9E84-B2C0-4DBD-A5B9-79127921D9CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{95D94B59-71DF-4108-A7C2-6E4A0575B791}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95D94B59-71DF-4108-A7C2-6E4A0575B791}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95D94B59-71DF-4108-A7C2-6E4A0575B791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B41470-D8AA-4169-9C42-D358331D23E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B41470-D8AA-4169-9C42-D358331D23E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B41470-D8AA-4169-9C42-D358331D23E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B41470-D8AA-4169-9C42-D358331D23E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{818B9E84-B2C0-4DBD-A5B9-79127921D9CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{818B9E84-B2C0-4DBD-A5B9-79127921D9CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{818B9E84-B2C0-4DBD-A5B9-79127921D9CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{818B9E84-B2C0-4DBD-A5B9-79127921D9CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
